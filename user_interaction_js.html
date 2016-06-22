@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>user interaction js</title>
+   </head>
+   <body>
+       <script>
+       	
+       	var username = "";
+
+       	while (username === "") {
+       		username = prompt ("Hi, what is your name?")
+       	}
+
+       	alert("Hello, " + username + "!");
+
+       	var response = confirm("Do you like pizza, " + username + "?");
+
+       	if (response) {
+       		alert("Awusome, I like pizza too!");
+       } else {
+       			alert("What! I thought everyone likes pizza...");
+       		
+       	}
+       	
+       </script>
+   </body>
+</html>
